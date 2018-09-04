@@ -1,0 +1,19 @@
+问题描述：
+1、Intellij IDEA创建maven项目无java文件问题
+2、Idea报错，没有找到/Users/me/.m2/settings.xml文件；
+
+问题分析：
+缺少settings.xml文件所致。
+
+解决方法：
+
+1、mac terminal 中查看 maven路径，命令：
+  mvn -version
+
+2、sudo cp settings.xml /Users/lishuai/.m2/
+
+3、重新打开idea，建立maven项目，系统import changes完成后，ok。
+
+4、项目根目录下 src目录存在，问题解决。
+
+20180905 suzhou
