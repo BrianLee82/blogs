@@ -5,3 +5,9 @@ java.lang.ClassNotFoundException: driverClass
 2、I used the IDEA's DATABASE tools ,it can connect my mysql，but the version of mysql connector is 5.1.46.
 
 3、Maybe the version is wrong.
+
+4、After i downloaded the newest version of mysql-connector-java-5.1.47 and imported ，the test function passed.
+
+Done!!
+
+Brian  20180906 suzhou
