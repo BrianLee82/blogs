@@ -1,0 +1,1 @@
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jdbcTemplate' defined in class path resource [beans.xml]: Cannot resolve reference to bean 'dataSource' while setting bean property 'datasource'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No bean named 'dataSource' available
