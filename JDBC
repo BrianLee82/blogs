@@ -37,4 +37,8 @@ VALUES
 <{age: }>);
 
 三、开发JdbcUtil工具类
-获取Connection、关闭Connection、Statement、ResultSet
+1、获取Connection、关闭Connection、Statement、ResultSet
+2、将数据库配置放在配置文件。
+
+四、
+
