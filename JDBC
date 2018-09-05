@@ -1,0 +1,40 @@
+笔记：
+一、创建maven项目
+
+1、添加依赖
+
+ <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.38</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.10</version>
+    </dependency>
+
+二、数据表准备
+
+CREATE DATABASE `springdata` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
+
+CREATE TABLE `student` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(20) NOT NULL,
+  `age` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+INSERT INTO `springdata`.`student`
+(`id`,
+`name`,
+`age`)
+VALUES
+(<{id: }>,
+<{name: }>,
+<{age: }>);
+
+三、开发JdbcUtil工具类
+获取Connection、关闭Connection、Statement、ResultSet
