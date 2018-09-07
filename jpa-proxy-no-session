@@ -1,0 +1,8 @@
+The version of my jpa has no .findone() function,just has getone().
+If you use getone(),you will see the problem.
+
+I change the call to use findonebyid().get().
+
+It's ok.
+
+Brian 20180907 suzhou.
