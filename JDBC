@@ -94,4 +94,8 @@ VALUES
 
 3、开发 Spring jdbc方式的 query和save方法
 
+五、Transcation be used in spring-data.
+1、事务一般在service层
+2、@Modifying @Query @Transactional
 
+    
