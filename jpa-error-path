@@ -1,0 +1,4 @@
+
+question:
+
+Error:(61, 36) java: 不兼容的类型: 不存在类型变量Y的实例, 以使javax.persistence.criteria.Path<Y>与javafx.scene.shape.Path一致
