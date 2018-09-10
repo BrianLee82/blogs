@@ -1,0 +1,7 @@
+
+问题：
+Description	Resource	Path	Location	Type Failure to transfer org.apache.maven.plugins:maven-resources-plugin:pom:2.7 from https://repo.maven.apache.org/maven2 was cached in the local repository, resolution will not be reattempted until the update interval of central has elapsed or updates are forced. Original error: Could not transfer artifact org.apache.maven.plugins:maven-resources-plugin:pom:2.7 from/to central (https://repo.maven.apache.org/maven2): The operation was cancelled.	pom.xml	/mydemo	line 1	Maven Configuration Problem
+
+
+转载：
+https://blog.csdn.net/czhdolyec/article/details/71191732
